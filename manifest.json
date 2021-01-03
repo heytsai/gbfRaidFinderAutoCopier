@@ -1,0 +1,30 @@
+{
+  "name": "GBF Raid Finder Auto-copier",
+  "description": "Extension that helps auto-copy the newest room ID in the raid finder webpage.",
+  "version": "1.0",
+  "manifest_version": 2,
+  "permissions": [
+    "webNavigation",
+    "clipboardWrite"
+  ],
+  "icons": {
+    "16": "images/icon-16.png",
+    "48": "images/icon-48.png",
+    "128": "images/icon-128.png",
+    "1024": "images/icon-1024.png"
+  },
+  "web_accessible_resources": ["css/content.css"],
+  "content_scripts": [
+    {
+      "matches": [
+        "https://gbf-raidfinder.la-foret.me/",
+        "https://gbf-raidfinder-tw.herokuapp.com/"
+      ],
+      "js": [
+        "lib/jquery-3.5.1.js",
+        "content.js"
+      ],
+      "css": ["css/content.css"]
+    }
+  ]
+}
