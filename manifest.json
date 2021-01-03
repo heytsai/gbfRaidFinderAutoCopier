@@ -13,6 +13,7 @@
     "128": "images/icon-128.png",
     "1024": "images/icon-1024.png"
   },
+  "web_accessible_resources": ["css/content.css"],
   "content_scripts": [
     {
       "matches": [
@@ -22,7 +23,8 @@
       "js": [
         "lib/jquery-3.5.1.js",
         "content.js"
-      ]
+      ],
+      "css": ["css/content.css"]
     }
   ]
 }
