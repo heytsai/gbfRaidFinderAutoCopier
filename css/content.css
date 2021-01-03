@@ -1,0 +1,13 @@
+div.auto-copy {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: white;
+    z-index: 200;
+    display: flex;
+    align-content: space-between;
+}
+
+.title {
+    flex-grow: 1;
+}
