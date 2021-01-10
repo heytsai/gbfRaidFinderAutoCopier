@@ -1,0 +1,11 @@
+{
+  "appName": {
+    "message": "グラブルレイドファインダー自動コピー支援"
+  },
+  "appDesc": {
+    "message": "レイドファインダーで最新の部屋IDを自動コピーするのに役立つ拡張機能。"
+  },
+  "buttonTextAutoCopy": {
+    "message": "自動コピー"
+  }
+}
