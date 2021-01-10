@@ -1,0 +1,14 @@
+{
+  "appName": {
+    "message": "GBF Raid Finder Auto-Copier",
+    "description": "The title of the application, displayed in the web store."
+  },
+  "appDesc": {
+    "message": "Extension that helps auto-copy the newest room ID in the raid finder webpage.",
+    "description": "The description of the application, displayed in the web store."
+  },
+  "buttonTextAutoCopy": {
+    "message": "Auto Copy",
+    "description": "The text displayed on the auto-copy button."
+  }
+}

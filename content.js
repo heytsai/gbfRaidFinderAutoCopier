@@ -86,9 +86,10 @@ const disableAutoCopy = function() {
 enableAutoCopy();
 
 // show the controller
+const buttonTextAutoCopy = chrome.i18n.getMessage('buttonTextAutoCopy');
 $('body').append(
     `<div class="auto-copy">
-        <span class="title">Auto Copy</span>
+        <span class="title">${buttonTextAutoCopy}</span>
         <input type="checkbox" checked />
     <div>`
 );
