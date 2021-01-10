@@ -1,7 +1,8 @@
 {
-  "name": "GBF Raid Finder Auto-Copier",
-  "description": "Extension that helps auto-copy the newest room ID in the raid finder webpage.",
-  "version": "1.0",
+  "name": "__MSG_appName__",
+  "description": "__MSG_appDesc__",
+  "default_locale": "en",
+  "version": "1.1",
   "manifest_version": 2,
   "permissions": ["clipboardWrite"],
   "icons": {

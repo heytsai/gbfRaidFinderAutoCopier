@@ -1,0 +1,11 @@
+{
+  "appName": {
+    "message": "GBF Raid Finder自動複製輔助"
+  },
+  "appDesc": {
+    "message": "自動複製raid finder網頁中最新房間ID的擴充套件。"
+  },
+  "buttonTextAutoCopy": {
+    "message": "自動複製"
+  }
+}
